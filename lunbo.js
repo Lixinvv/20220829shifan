@@ -7,6 +7,7 @@ window.onload=function()
      setInterval(()=>{
         if (count+1 == divListLength) {
             aa.scrollTop=0
+            count=0
         } else {
            count++
            let top=count*330
